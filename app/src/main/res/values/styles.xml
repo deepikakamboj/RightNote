@@ -1,0 +1,22 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="actionBarStyle">@style/ActionBar</item>
+    </style>
+
+    <style name="ActionBar"
+        parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionbar_background</item>         <!-- for levels 7 to 13 -->
+        <item name="android:titleTextStyle">@style/ActionBarTitle</item>         <!-- for levels 7 to 13 -->
+        <item name="titleTextStyle">@style/ActionBarTitle</item>         <!-- for levels 7 to 13 -->
+        <item name="background">@color/actionbar_background</item>
+    </style>
+
+    <style name="ActionBarTitle">
+        <item name="android:textColor">@color/actionbar_textColor</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <!--AppCompat.Light.DarkActionBar-->
+
+</resources>

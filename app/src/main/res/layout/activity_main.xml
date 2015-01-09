@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+    android:id="@+id/label"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Type here:"/>
+
+    <EditText
+    android:id="@+id/entry"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/label"
+    android:hint="Enter message:" />
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entry"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:onClick="sendMessage"
+        android:text="OK"/>
+    <Button
+    android:id="@+id/cancel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_toLeftOf="@+id/ok"
+    android:layout_alignTop="@+id/ok"
+    android:text="Cancel"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
+
+    <!--<SlidingDrawer-->
+    <!--android:id="@+id/drawer"-->
+    <!--android:layout_width="320dip"-->
+    <!--android:layout_height="440dip"-->
+    <!--android:orientation="vertical"-->
+    <!--android:handle="@+id/handle"-->
+    <!--android:content="@+id/content">-->
+
+    <!--<ImageView-->
+    <!--android:id="@+id/handle"-->
+    <!--android:layout_width="48dip"-->
+    <!--android:layout_height="48dip"-->
+    <!--android:src="@drawable/ic_launcher"/>-->
+    <!--<AnalogClock-->
+    <!--android:id="@+id/content"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!--android:background="#d0a0a0"/>-->
+
+    <!--</SlidingDrawer> -->
+
